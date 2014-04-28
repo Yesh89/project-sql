@@ -1,0 +1,11 @@
+applications:
+- services:
+  - mysql-3f
+  host: project-sql-272
+  disk: 1024M
+  name: project-sql
+  command: node app.js
+  path: .
+  domain: ng.bluemix.net
+  mem: 128M
+  instances: 1
